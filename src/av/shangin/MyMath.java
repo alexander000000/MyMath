@@ -45,5 +45,9 @@ public class MyMath {
         System.out.println("m.calc(1,20);");
         System.out.println("Результа: "+MyMath.calc(0,20));
 
+
+        System.out.println("----Тест 5 -----");
+        System.out.println("m.calc(0,0, 0,0,....0);");
+        System.out.println("Результа: "+MyMath.calc(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0));
     }
 }
