@@ -10,19 +10,9 @@ public class MyMath {
 
         if (v.length<1) return count;
 
-//        Почему так не работает?
-//        for (int i: v) {
-//            System.out.println("v["+i+"]="+v[i]);
-//            if (v[i] >= c && v[i] <= d) count++;
-//        }
-
-
-         for (int i=0; i< v.length; i++) {
-             if (v[i] >= c && v[i] <= d) count++;
-         }
+        for (int i: v) if (i >= c && i <= d) count++;
 
         return count;
-
 
     }
 
@@ -55,9 +45,6 @@ public class MyMath {
         System.out.println("calc(0,0, 0,0,....0);");
         System.out.println("Результа: "+MyMath.calc(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0));
 
-        System.out.println("----Тест 6 -----");
-        int mas1[]= {1,1};//= {-1,2,-3,4,-5};
-        System.out.println("calc(0,10, mas1);");
-        System.out.println("Результа: "+MyMath.calc(0,10, mas1));
+
     }
 }
